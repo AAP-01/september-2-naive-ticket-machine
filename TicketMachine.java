@@ -9,23 +9,24 @@
  * @author David J. Barnes and Michael Kölling
  * @version 7.0
  */
-public TicketMachine
+public class TicketMachine
 {
     // The price of a ticket from this machine.
-    private int price;
+    private int price
+    //field since it's in a class (public class TicketMachine), but not in a method or constructor
     // The amount of money entered by a customer so far.
-    private int balance;
+    private int balance;   //field
     // The total amount of money collected by this machine.
-    private int total;
+    private int total;   //field
 
     /**
      * Create a machine that issues tickets of the given price.
      * Note that the price must be greater than zero, and there
      * are no checks to ensure this.
      */
-    public TicketMachine(int cost)
+    public TicketMachine(int cost) //constructor
     {
-        price = cost;
+        price = cost; //not a field since it's inside a constructor
         balance = 0;
         total = 0;
     }
@@ -33,7 +34,7 @@ public TicketMachine
     /**
      * Return the price of a ticket.
      */
-    public int getPrice()
+    public int getPrice() //method
     {
         return price;
     }
