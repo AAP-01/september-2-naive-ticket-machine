@@ -26,4 +26,26 @@ Part 2
 9. public TicketMachine: code doesn't work without the class
 10. x
 11. public TicketMachine(int cost): no return type (void, int, string, etc.) before the variable, and there are parentheses after the variable
-12. 
+12.
+private int count
+private Student representative
+private Server host
+
+13.
+private boolean alive
+private Person tutor
+private Game game
+14. x
+15. x
+16. the ; is essential at the end of most lines, including field declarations
+17. x
+18. public Student(String name) belongs to the class Student
+19. public Book(String title, double price) has 2 parameters, first is a string type and the second is a double type
+20. i think both parameters have to be stored somewhere
+21.
+public Pet(String petsName)
+{
+private String petsName
+}
+
+22. 
