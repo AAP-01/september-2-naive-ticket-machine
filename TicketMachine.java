@@ -12,7 +12,7 @@
 public class TicketMachine
 {
     // The price of a ticket from this machine.
-    private int price
+    private int price;
     //field since it's in a class (public class TicketMachine), but not in a method or constructor
     // The amount of money entered by a customer so far.
     private int balance;   //field
