@@ -76,4 +76,12 @@ public class TicketMachine
         // Clear the balance.
         balance = 0;
     }
+    
+    /**
+     * It gets the total money i've inserted
+     */
+    public int getTotal()
+    {
+        return total;
+    }
 }
