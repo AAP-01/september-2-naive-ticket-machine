@@ -27,14 +27,15 @@ Part 2
 10. x
 11. public TicketMachine(int cost): no return type (void, int, string, etc.) before the variable, and there are parentheses after the variable
 12.
-private int count
-private Student representative
-private Server host
+private int count: int is the return type
+private Student representative: Student
+private Server host: Server
 
 13.
-private boolean alive
-private Person tutor
-private Game game
+private boolean alive: alive is the name of the field
+private Person tutor: tutor
+private Game game: game
+
 14. x
 15. x
 16. the ; is essential at the end of most lines, including field declarations
