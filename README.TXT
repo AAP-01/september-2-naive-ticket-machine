@@ -63,11 +63,3 @@ private String petsName
 28. getPrice uses the get accessor method while printTicket uses the print accessor method. get is used to retrieve the value of an objet, and print is used to display information
 
 29. insertMoney and printTicket do not have a return statement because they do not need to retrieve the value of a prior object
-
-30. x
-31. x
-32. x
-33. 
-
-Part 3
-1. 
