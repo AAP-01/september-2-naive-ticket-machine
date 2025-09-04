@@ -79,6 +79,7 @@ public class TicketMachine
     
     /**
      * It gets the total money i've inserted
+     * i wrote this one!!!
      */
     public int getTotal()
     {
