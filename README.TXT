@@ -51,10 +51,23 @@ private String petsName
 
 22. x
 23. the getBalance method uses Balance as a variable in the header and balance in the body, while the getPrice method uses Price as a variable in the header and price in the body
+
 24. i would characterize it as "how much money has been inserted into the machine"
+
 25. the code seems to work with getAmount as the method shows the exact money i inserted. HOWEVER, the code will break if i change the field to return amount; as "amount" doesn't exist
+
 26. the getTotal method displays the total money the user has ever inserted into the machine
+
 27. the error message says: "missing return statement"
+
 28. getPrice uses the get accessor method while printTicket uses the print accessor method. get is used to retrieve the value of an objet, and print is used to display information
+
 29. insertMoney and printTicket do not have a return statement because they do not need to retrieve the value of a prior object
-30. 
+
+30. x
+31. x
+32. x
+33. 
+
+Part 3
+1. 
