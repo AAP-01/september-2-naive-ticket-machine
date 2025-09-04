@@ -85,4 +85,17 @@ public class TicketMachine
     {
         return total;
     }
+    
+    /**
+     * Reduce price by the given amount.
+     */
+    public void discount(int amount) // TODO: Subtract amount from price.
+    {
+        
+    }
+    
+    public void showPrice()
+    {
+        System.out.println("The price of a ticket is " + price + " cents.");
+    }
 }
